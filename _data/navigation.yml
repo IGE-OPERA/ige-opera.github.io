@@ -1,0 +1,17 @@
+main:
+  - title: "Methods"
+    url: /methods/
+  - title: "Softwares"
+    url: /softwares/
+  - title: "People"
+    url: /people/
+  - title: "Projects"
+    url: /projects/
+  - title: "Meetings"
+    url: /meetings/
+  - title: "Open Science"
+    url: /open-science/
+  - title: "Public Engagement"
+    url: /public-engagement/
+  - title: "Philosophy"
+    url: /philosophy/

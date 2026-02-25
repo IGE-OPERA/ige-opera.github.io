@@ -1,0 +1,32 @@
+---
+---
+
+{% for person in site.people %}
+ {% unless person.pub_id %}
+    {% assign first_initial = person.firstname | slice: 0 | prepend: ', ' %}
+    {% assign old_name = person.lastname | append: first_initial | append: '.' %}
+ {% else %}
+    {% assign old_name = person.pub_id %}
+ {% endunless %}
+ {% assign new_name = old_name | prepend: '<b>' | append: '</b>' %}
+ {% assign reference = reference | replace_first: old_name, new_name %}
+{% endfor %}
+
+{% assign clean_reference = reference | replace: 'https://doi.org/', '' | replace: 'http://doi.org/', '' %}
+{% assign clean_reference = clean_reference | replace: entry.doi, '' %}
+{% assign clean_reference = clean_reference | replace: ', ,', ',' %}
+
+<div class="text-justify">
+    {{ clean_reference }}
+    {% if entry.doi %}
+    <a href="https://doi.org/{{ entry.doi }}">[doi]</a>
+    {% elsif entry.url %}
+    <a href="{{ entry.url }}">[link]</a>
+    {% endif %}
+</div>
+
+{% if entry.note %}
+<div class="pub-note">
+    <em>{{ entry.note | markdownify | remove: '<p>' | remove: '</p>' }}</em>
+</div>
+{% endif %}

@@ -1,0 +1,48 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+
+@charset "utf-8";
+
+// from computationalcameras.org
+.videos__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+@media (max-width: 600px) {
+	.videos__container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+ol.bibliography {
+  font-size: 0.75em;
+  line-height: 1.4;
+  list-style: none;
+  padding-left: 2.5em;
+
+  li {
+    counter-increment: publication -1;
+    margin-bottom: 0.75em;
+    position: relative;
+
+    &::before {
+      content: counter(publication) ".";
+      position: absolute;
+      left: -2.5em;
+      width: 2em;
+      text-align: right;
+    }
+  }
+
+  .pub-note {
+    margin-top: 0.4em;
+  }
+}
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials

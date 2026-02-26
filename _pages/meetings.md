@@ -22,7 +22,7 @@ Speaker: Vadim Bertrand
 
 Monday 30 March 2026  
 MCP 300  
-Speaker: Open coding practices, Lucas and Alexis  
+Speaker: Lucas Bastien and Alexis Barge (Open coding practices)    
 
 
 

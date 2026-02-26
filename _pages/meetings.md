@@ -5,8 +5,8 @@ layout: opera
 ---
 
 # Upcoming Team meetings 
-## Mondays at 10 AM 
-## Presentations are either in English or French
+Mondays at 10 AM  
+Presentations are either in English or French  
 
 Monday 2 March 2026  
 OSUG B 105  

@@ -27,11 +27,11 @@ Speaker: Lucas Bastien and Alexis Barge (Open coding practices)
 
 
 ## Past meetings
-12 Jan 2026
-Speaker: Alexis Barge
+12 Jan 2026  
+Speaker: Alexis Barge  
 
-19 Jan 2026
-Speaker: Lucas Bastien
+19 Jan 2026  
+Speaker: Lucas Bastien  
 
 2 Feb 2026   
 Speaker: Ian Hough  

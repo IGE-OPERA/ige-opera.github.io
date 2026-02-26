@@ -1,6 +1,6 @@
 ---
 title: " "
-permalink: /softwares/
+permalink: /software/
 layout: opera
 ---
 

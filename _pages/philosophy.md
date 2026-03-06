@@ -4,4 +4,4 @@ permalink: /philosophy/
 layout: opera
 ---
 
-How we work statement...
+How we work, in progress

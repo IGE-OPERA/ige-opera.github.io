@@ -29,10 +29,18 @@ feature_row_projects:
   
   - image_path: "assets/images/projects/bubbleplast.jpg"
     title: "BubblePlast"
-    excerpt: "Transfer through air bubble bursting of micro and nanoplastics from the ocean to the atmosphere <br> Contact: J. Thomas"
+    excerpt: "Transfer through air bubble bursting of micro and nanoplastics from the ocean to the atmosphere <br> OPERA Contact: J. Thomas"
     url: "https://anr.fr/Project-ANR-23-CE34-0012"
     btn_class: "btn--primary"
     btn_label: "Learn more"
+    
+  - image_path: "assets/images/projects/atmo-plastic.png"
+    title: "ATMO-PLASTIC"
+    excerpt: "Emission, atmospheric transport and deposition of microplastics <br> OPERA Contact: J. Thomas"
+    url: "https://anr.fr/Projet-ANR-20-CE34-0014"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+ 
     
 
     

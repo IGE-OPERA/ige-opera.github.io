@@ -4,6 +4,4 @@ permalink: /projects/
 layout: opera
 ---
 
-- project 1,
-- project 2,
-- ...
+- In progress

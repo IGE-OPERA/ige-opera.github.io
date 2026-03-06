@@ -9,3 +9,5 @@
    `bundle install`,
 4. Build and serve the website locally:
    `bundle exec jekyll serve`.
+
+You may also consult Jekyll Splash layout documentation [here](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout) and Minimal Mistakes helpers [here](https://mmistakes.github.io/minimal-mistakes/docs/helpers/) 

@@ -1,17 +1,17 @@
 main:
-  - title: "Publications"
-    url: /publications/
-  - title: "Software"
-    url: /software/
+  - title: "Home"
+    url: /.
   - title: "People"
     url: /people/
   - title: "Projects"
     url: /projects/
   - title: "Team Meetings"
     url: /meetings/
-  - title: "Open Science"
+  - title: "Publications"
+    url: /publications/
+  - title: "Delivering Open Science"
     url: /open-science/
   - title: "Public Engagement"
     url: /public-engagement/
-  - title: "Philosophy"
+  - title: "How We Work"
     url: /philosophy/

@@ -5,7 +5,7 @@ layout: opera
 ---
 
 # Upcoming Team meetings 
-**Mondays at 10 AM**
+**Mondays at 10 AM** <br>
 **Presentations are either in English or French** 
 
 9 March 2026  

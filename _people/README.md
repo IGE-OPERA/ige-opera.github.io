@@ -8,7 +8,7 @@ Required Keywords:
 - `pub_id`: String to identify person in the bibliography
 - `role`: Person's role in the group listed in the People page
 - `status`: *active* or *alumn*
-- `sort_display`: order to display person on the People page (highers to lowest). Several people can have the same number. 
+- `sort_display`: order to display person on the People page (highest to lowest). Several people can have the same number.
 - `image_path`: Person's image. Should be square. Can use otter image.
 
 Optional Keywords:

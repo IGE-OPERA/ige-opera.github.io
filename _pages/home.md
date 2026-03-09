@@ -29,22 +29,22 @@ intro:
 <>#    excerpt: "observation, modelling, parameterization"
 
 geoscience:
-  - image_path: ""
+  - image_path: "/assets/images/home/atmosphere.png"
     title: "Atmosphere"
     excerpt: "Atmospheric aerosols, clouds, atmosphere-surface interactions"
-  - image_path: "/assets/images/osbl-processes.png"
+  - image_path: "/assets/images/home/osbl-processes.png"
     title: "Ocean"
     excerpt: "Near surface ocean circulation, processes, air-sea exchanges"
-  - image_path: ""
+  - image_path: "/assets/images/home/climate.png"
     title: "Climate"
     excerpt: "Climate modeling and prediction"
 
 methods:
-  - image_path: "/assets/images/calibrate.png"
+  - image_path: "/assets/images/home/calibrate.png"
     title: "Evaluation and calibration of geoscientific models"
-  - image_path: "/assets/images/ai.png"
+  - image_path: "/assets/images/home/ai.png"
     title: "AI for modelling and data assimilation"
-  - image_path: "/assets/images/modularity.png"
+  - image_path: "/assets/images/home/modularity.png"
 #    title: "Modularity and interoperability of "
     title: "Modularity of monitoring and forecasting systems "
 

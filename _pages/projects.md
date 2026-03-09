@@ -7,21 +7,21 @@ layout: opera
 feature_row_projects:
   - image_path: "assets/images/projects/TRACCS_PC5.png"
     title: "COMPACT"
-    excerpt: "COMputing PAradigms towards efficient, modular and trainable ClimaTe models <br> **Contact:** J. Sommer"
+    excerpt: "COMputing PAradigms towards efficient, modular and trainable ClimaTe models <br> **Contact:** J. Le Sommer"
     url: "https://pepr-traccs.fr/projet/pc5-compact/"     
     btn_class: "btn--primary"
     btn_label: "Learn more"
  
   - image_path: "assets/images/projects/bayesian-inference.png"
     title: "SBI4C@MIAI"
-    excerpt: "Simulation Based Inference for Climate <br> **Contacts:** J. Le Sommer"
+    excerpt: "Simulation Based Inference for Climate <br> **Contact:** J. Le Sommer"
     url: "https://sbi4c.inria.fr"     
     btn_class: "btn--primary"
     btn_label: "Learn more"
 
   - image_path: "assets/images/projects/swot_emblem.png"
     title: "SWOT PALMAS"
-    excerpt: "Physics And Learning for Models and Algorithms in the SWOT era <br> **Contacts:** E. Cosme and Le Sommer"
+    excerpt: "Physics And Learning for Models and Algorithms in the SWOT era <br> **Contacts:** E. Cosme and J. Le Sommer"
   
   - image_path: "assets/images/projects/certainty.png"
     title: "CERTAINTY"

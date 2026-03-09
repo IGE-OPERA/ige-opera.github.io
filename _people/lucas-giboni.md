@@ -1,5 +1,5 @@
 ---
-lastname: Giboni"
+lastname: "Giboni"
 firstname: "Lucas"
 pub_id: "Giboni L."
 role: "PhD Candidate"

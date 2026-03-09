@@ -32,7 +32,7 @@ methods:
   - image_path: "/assets/images/home/ai.png"
 #    title: "AI for modeling and inversion"
     title: "ML-based approaches "
-    excerpt: "Hybrid modelling, differentiable programming, data assimilation"
+    excerpt: "Hybrid modelling, differentiable programming, neural data assimilation"
   - image_path: "/assets/images/home/modularity.png"
     title: "Numerical system design"
     excerpt: "Modularity, interoperability of models and monitoring systems"

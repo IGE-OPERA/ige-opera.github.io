@@ -20,31 +20,34 @@ geoscience:
     excerpt: "Atmospheric aerosols, clouds, atmosphere-surface interactions"
   - image_path: "/assets/images/home/osbl-processes.png"
     title: "Ocean"
-    excerpt: "Near surface ocean circulation, processes, air-sea exchanges"
+    excerpt: "Near surface ocean processes, air-sea exchanges, remote sensing"
   - image_path: "/assets/images/home/climate.png"
     title: "Climate"
     excerpt: "Climate modeling and prediction"
 
 methods:
   - image_path: "/assets/images/home/calibrate.png"
-    title: "Evaluation and calibration of geoscientific models"
+    title: "Physics-based modeling"
+    excerpt: "Development, calibration, evaluation, uncertainty quantification"
   - image_path: "/assets/images/home/ai.png"
-    title: "AI for modelling and data assimilation"
+#    title: "AI for modeling and inversion"
+    title: "ML-based approaches "
+    excerpt: "Hybrid modelling, differentiable programming, data assimilation"
   - image_path: "/assets/images/home/modularity.png"
-#    title: "Modularity and interoperability of "
-    title: "Modularity of monitoring and forecasting systems "
+    title: "Numerical system design"
+    excerpt: "Modularity, interoperability of models and monitoring systems"
 
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-<h1 style="text-align:center;color:#578BBD">Research Themes</h1>
+<h1 style="text-align:center;color:#578BBD">Research themes</h1>
 
 
-{% include feature_row id="geoscience"%}
+{% include feature_row id="geoscience"  %}
 
 
-<h1 style="text-align:center;color:#578BBD;">Methods </h1>
+<h1 style="text-align:center;color:#578BBD;">Computational tools </h1>
 
  
 {% include feature_row id="methods" %}

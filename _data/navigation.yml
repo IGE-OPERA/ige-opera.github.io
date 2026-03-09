@@ -5,8 +5,8 @@ main:
     url: /people/
   - title: "Projects"
     url: /projects/
-  - title: "Team Meetings"
-    url: /meetings/
+  - title: "Software"
+    url: /software/
   - title: "Publications"
     url: /publications/
   - title: "Open Science"
@@ -15,3 +15,5 @@ main:
     url: /public-engagement/
   - title: "How We Work"
     url: /philosophy/
+  - title: "Team Meetings"
+    url: /meetings/

@@ -2,7 +2,7 @@
 lastname: "Cosme"
 firstname: "Emmanuel"
 pub_id: "Cosme, E."
-role: "Enseignant-chercheur"
+role: "Assistant professor <br> Director of [IGE](https://www.ige-grenoble.fr)"
 status: "active"
 pronouns: ""
 sort_display: 100

@@ -12,7 +12,7 @@ feature_row_sofware:
     btn_label: "Learn more"
   - image_path: "assets/images/software/WRF-Chem-Polar.png"
     title: "WRF-Chem-Polar"
-    excerpt: "OPERA co-leads devleopment of a regional chemistry-climate model based on WRF-Chem, with enhancements for the polar regions, developed at IGE and LATMOS in France."
+    excerpt: "OPERA co-leads developement of a regional chemistry-climate model based on WRF-Chem, with enhancements for the polar regions, developed at IGE and LATMOS in France."
     url: "https://wrf-chem-polar.eu"     
     btn_class: "btn--primary"
     btn_label: "Learn more"

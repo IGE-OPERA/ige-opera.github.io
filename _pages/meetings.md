@@ -8,15 +8,9 @@ layout: opera
 **Mondays at 10 AM** <br>
 **Presentations are either in English or French** 
 
-23 March 2026  
-OSUG B 105  
-Speaker: Vadim Bertrand  
-
-30 March 2026  
-MCP 300  
-Speaker: Lucas Bastien and Alexis Barge (Open coding practices)    
-
-
+Monday 20 April 2026
+Speaker: Manolis 
+Title: TBD
 
 ## Past meetings
 12 Jan 2026  
@@ -41,3 +35,11 @@ Speaker: Ruth Price
 9 March 2026  
 OSUG B 105  
 Speaker: Laurent Brodeau (invited)  
+
+23 March 2026  
+OSUG B 105  
+Speaker: Vadim Bertrand  
+
+30 March 2026  
+MCP 300  
+Speaker: Lucas Bastien and Alexis Barge (Open coding practices)    

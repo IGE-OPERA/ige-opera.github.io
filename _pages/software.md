@@ -16,6 +16,12 @@ feature_row_sofware:
     url: "https://wrf-chem-polar.eu"     
     btn_class: "btn--primary"
     btn_label: "Learn more"
+  - image_path: "assets/images/software/LMDZ.png"
+    title: "LMDZ"
+    excerpt: "OPERA contributes to the development of empirical run-time bias-corrections in LMDZ, including ML-based implementations, and focuses on regional-scale applications."
+    url: "https://lmdz.lmd.jussieu.fr/"     
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
 ---
 
 # Software

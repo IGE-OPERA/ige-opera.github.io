@@ -10,7 +10,7 @@ layout: opera
 
 Monday 20 April 2026  
 Speaker: Manolis Perrot  
-Title: "oMLDb: Building an open and collaborative ocean turbulence database"  
+**Title:** oMLDb: Building an open and collaborative ocean turbulence database 
 
 ## Past meetings
 12 Jan 2026  

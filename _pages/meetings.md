@@ -8,9 +8,9 @@ layout: opera
 **Mondays at 10 AM** <br>
 **Presentations are either in English or French** 
 
-Monday 20 April 2026	
-Speaker: Manolis	
-Title: TBD	
+Monday 20 April 2026  
+Speaker: Manolis  
+Title: TBD  
 
 ## Past meetings
 12 Jan 2026  

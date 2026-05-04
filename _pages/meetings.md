@@ -6,10 +6,7 @@ layout: opera
 
 #  Team meetings 
 **Mondays at 10 AM** <br>
-<!--
-**Presentations are either in English or French** 
-Stay tuned for future updates
---!>
+
 
 ## Past meetings
 12 Jan 2026  

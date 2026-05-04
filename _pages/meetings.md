@@ -4,13 +4,10 @@ permalink: /meetings/
 layout: opera
 ---
 
-# Upcoming Team meetings 
+#  Team meetings 
 **Mondays at 10 AM** <br>
-**Presentations are either in English or French** 
-
-Monday 20 April 2026  
-Speaker: Manolis Perrot  
-**Title:** oMLDb: Building an open and collaborative ocean turbulence database 
+<!--**Presentations are either in English or French** 
+Stay tuned for future updates--!>
 
 ## Past meetings
 12 Jan 2026  
@@ -42,4 +39,9 @@ Speaker: Vadim Bertrand
 
 30 March 2026  
 MCP 300  
-Speaker: Lucas Bastien and Alexis Barge (Open coding practices)    
+Speaker: Lucas Bastien and Alexis Barge (Open coding practices)   
+
+Monday 20 April 2026  
+Speaker: Manolis Perrot  
+**Title:** oMLDb: Building an open and collaborative ocean turbulence database 
+

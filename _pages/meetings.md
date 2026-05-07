@@ -7,6 +7,10 @@ layout: opera
 #  Team meetings 
 **Mondays at 10 AM** <br>
 
+Next meeting:
+11 May 2026
+OSUG B 105 
+(no speaker)
 
 ## Past meetings
 12 Jan 2026  

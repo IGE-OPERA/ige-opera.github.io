@@ -48,7 +48,7 @@ Monday 20 April 2026
 Speaker: Manolis Perrot  
 **Title:** oMLDb: Building an open and collaborative ocean turbulence database 
 
-Monday 11 May 2026
-OSUG B 105
-Speaker: Takaya Uchida (invited)
+Monday 11 May 2026  
+OSUG B 105  
+Speaker: Takaya Uchida (invited)  
 **Title:** Is thickness weighted average the overlooked conduit between quasi geostrophy and primitive equation?

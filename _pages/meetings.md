@@ -8,8 +8,8 @@ layout: opera
 **Mondays at 10 AM** <br>
 
 Next meeting:  
-1 June 2026
-Room TBC 
+1 June 2026  
+Room TBC  
 Gerhard Krinner  
 
 8 June 2026  

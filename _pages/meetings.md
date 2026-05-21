@@ -7,7 +7,7 @@ layout: opera
 #  Team meetings 
 **Mondays at 10 AM** <br>
 
-Next meeting:
+Next meeting:  
 1 June 2026
 Room TBC 
 Gerhard Krinner  

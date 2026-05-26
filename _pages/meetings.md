@@ -9,16 +9,16 @@ layout: opera
 
 Next meeting:  
 1 June 2026  
-Room TBC  
 Gerhard Krinner  
+OSUG B 105  
 
 8 June 2026  
-Room TBC  
-Anne Durif  
+No speaker  
+OSUG B 105  
 
 22 June 2026  
-Room TBC  
 Lucas Giboni  
+OSUG B 105  
 
 ## Past meetings
 12 Jan 2026  

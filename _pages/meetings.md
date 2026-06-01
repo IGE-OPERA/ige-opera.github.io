@@ -9,11 +9,11 @@ layout: opera
 
 Next meeting:  
 1 June 2026  
-No speaker
+No speaker <br>
 MCP 300 
 
 8 June 2026  
-Gerhard Krinner   
+Gerhard Krinner   <br>
 OSUG B 105  
 
 22 June 2026  

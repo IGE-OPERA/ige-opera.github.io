@@ -8,17 +8,7 @@ layout: opera
 **Mondays at 10 AM** <br>
 
 Next meeting:  
-1 June 2026  
-No speaker <br>
-MCP 300 
 
-8 June 2026  
-Gerhard Krinner   <br>
-OSUG B 105  
-
-22 June 2026  
-Lucas Giboni  
-OSUG B 105  
 
 ## Past meetings
 12 Jan 2026  
@@ -59,3 +49,7 @@ Speaker: Takaya Uchida (invited)
 Monday 18 May 2026  
 Speaker: Hugo Jacquet  
 **Title:** Wave driven mixing in the upper ocean boundary layer  
+
+8 June 2026  
+Gerhard Krinner   <br>
+

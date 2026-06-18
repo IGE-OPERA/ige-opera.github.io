@@ -1,7 +1,7 @@
 ---
 lastname: "Price"
 firstname: "Ruth"
-pub_id: "Price R."
+pub_id: "Price, R."
 role: "Postdoctoral Researcher"
 status: "active"
 sort_display: 7

@@ -5,9 +5,7 @@ layout: opera
 ---
 
 #  Team meetings 
-**Mondays at 10 AM** <br>
-
-Next meeting:  
+OPERA will restart team meeting after the summer holiday.  
 
 
 ## Past meetings

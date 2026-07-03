@@ -9,7 +9,7 @@ Required Keywords:
 - `role`: Person's role in the group listed in the People page
 - `status`: *active* or *alumn*
 - `sort_display`: order to display person on the People page (highest to lowest). Several people can have the same number.
-- `image_path`: Person's image. Should be square. Can use otter image.
+- `image_path`: Person's image. Should be square. Can use otter image (/assests/images/people/otter.jpg).
 
 Optional Keywords:
 - `website`: Linked to name on the People page
@@ -25,7 +25,7 @@ role: "Group Leader"
 status: "active"
 pronouns: "she/her"
 sort_display: 4
-image_path: /assets/images/profile-maike.jpg
+image_path: /assests/images/people/otter.jpg
 website: "https://www.msonnewald.com/"
 ---
 ```

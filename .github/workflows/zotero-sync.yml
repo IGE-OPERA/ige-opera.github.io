@@ -1,5 +1,7 @@
 name: Sync publications from Zotero
 on:
+  push:
+    branches: ["feat/automate-zotero"]
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:

@@ -1,0 +1,32 @@
+name: Sync publications from Zotero
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: zotero-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.x" }
+      - name: Regenerate publications.bib from Zotero
+        run: python3 scripts/sync_zotero.py
+        env:
+          ZOTERO_GROUP_ID: "6427155"
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet -- _data/publications.bib; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add _data/publications.bib
+            git commit -m "chore: sync publications from Zotero library"
+            git push
+          else
+            echo "No changes."
+          fi

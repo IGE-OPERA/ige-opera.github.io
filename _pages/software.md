@@ -6,7 +6,7 @@ layout: opera
 feature_row_sofware:
   - image_path: "/assets/images/software/NEMO.png"
     title: "NEMO"
-    excerpt: "OPERA contributes to improving the representation of uncertainties and introducing ML components within NEMO, the  european ocean / sea-ice modelling framework."
+    excerpt: "OPERA contributes to improving the representation of uncertainties and introducing ML components within NEMO, the european ocean / sea-ice modelling framework."
     url: "https://www.nemo-ocean.eu"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -24,7 +24,7 @@ feature_row_sofware:
     btn_label: "Learn more"
   - image_path: "assets/images/software/GEOS-Chem.png"
     title: "GEOS-Chem"
-    excerpt: "OPERA contributes to improving the representation of atmospheric microplastics in GEOS-Chem"
+    excerpt: "OPERA contributes to improving the representation of atmospheric microplastics in the GEOS-Chem global atmospheric chemistry model"
     url: "https://geoschem.github.io/index.html"
     btn_class: "btn--primary"
     btn_label: "Learn more"

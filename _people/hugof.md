@@ -1,7 +1,7 @@
 ---
 lastname: "Frezat"
 firstname: "Hugo"
-pub_id: "Frezat H"
+pub_id: "Frezat, H."
 role: "Postdoctoral researcher"
 status: "active"
 sort_display: 8

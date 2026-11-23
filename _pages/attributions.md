@@ -42,3 +42,9 @@ Journal and preprint-server logos on the publications page
 used nominatively, to identify the venue of each publication. They were
 obtained from the publishers' public websites (Copernicus/EGU, Frontiers,
 Cambridge University Press).
+
+### legoESM logo
+
+The legoESM logo on the software page was obtained from the
+[legoESM repository](https://github.com/climate-federation/legoESM)
+(`docs/assets/legoESM.png`), white margins trimmed, centred on a white plate.

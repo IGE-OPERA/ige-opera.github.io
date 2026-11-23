@@ -17,7 +17,7 @@ jobs:
           token: ${{ secrets.SYNC_TOKEN }}
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2"
+          ruby-version: "3.3"
           bundler-cache: true
       - name: Build with /preview baseurl
         run: bundle exec jekyll build --baseurl /preview

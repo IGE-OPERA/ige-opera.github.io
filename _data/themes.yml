@@ -1,0 +1,16 @@
+# Home page research theme cards. Design-level content: edit here.
+
+- title: "Atmosphere"
+  excerpt: "Aerosols, clouds and atmospheric chemistry; atmosphere–surface interactions."
+  image_path: "/assets/images/home/dust-mediterranean.jpg"
+  alt: "Saharan dust plume over the Mediterranean seen from NASA's Aqua satellite"
+
+- title: "Ocean"
+  excerpt: "Near-surface ocean processes, air–sea exchanges, modelling and remote sensing."
+  image_path: "/assets/images/home/bloom-barents.jpg"
+  alt: "Phytoplankton bloom in the Barents Sea seen from NASA's Terra satellite"
+
+- title: "Cryosphere"
+  excerpt: "Sea ice, snow, glaciers — and their coupling with the ocean and atmosphere."
+  image_path: "/assets/images/home/seaice-larsen.jpg"
+  alt: "Antarctic peninsula and the Larsen ice shelf seen from NASA's Aqua satellite"

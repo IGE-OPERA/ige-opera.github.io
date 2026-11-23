@@ -1,0 +1,8 @@
+# Open positions of the OPERA group, newest first.
+# Maintained via the Grist content database (see scripts/sync_grist.py).
+# Fields: title, type (PhD|Postdoc|Internship|Engineer...), excerpt, url,
+#         contact, deadline (optional), status (open|filled)
+#
+# An empty list renders the "no open positions" state on the Join us page.
+
+[]

@@ -3,6 +3,8 @@ main:
     url: /.
   - title: "People"
     url: /people/
+  - title: "Research"
+    url: /research/
   - title: "Projects"
     url: /projects/
   - title: "Software"
@@ -11,5 +13,5 @@ main:
     url: /publications/
   - title: "Outreach"
     url: /outreach/
-  - title: "Team Meetings"
-    url: /meetings/
+  - title: "Join us"
+    url: /join/

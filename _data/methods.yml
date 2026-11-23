@@ -1,0 +1,16 @@
+# Home page method cards. Design-level content: edit here.
+
+- title: "Improving process-based models"
+  excerpt: "Development, calibration, evaluation and uncertainty quantification of community models."
+  image_path: "/assets/images/home/calibrate.png"
+  alt: "Model calibration schematic"
+
+- title: "Exploring data-driven approaches"
+  excerpt: "Hybrid modelling, differentiable programming, neural data assimilation."
+  image_path: "/assets/images/home/methods-hybrid.svg"
+  alt: "Schematic of a hybrid physics and machine learning model"
+
+- title: "Enhancing numerical system design"
+  excerpt: "Modularity, interoperability, and revisiting the APIs of geoscientific models."
+  image_path: "/assets/images/home/methods-modularity.svg"
+  alt: "Schematic of modular model components connected by clean interfaces"

@@ -1,0 +1,11 @@
+# News items of the OPERA group, newest first.
+# Maintained via the Grist content database (see scripts/sync_grist.py).
+# Fields: date (YYYY-MM-DD), title, text (optional), url (optional), url_label (optional)
+
+- date: "2026-11-23"
+  title: "Website revamp underway"
+  text: "We are rebuilding our web presence: a new design, research themes aligned with our current work, automated publication pages, and content managed from our group database."
+
+- date: "2026-11-20"
+  title: "Facundo Sapienza joins OPERA"
+  text: "Facundo Sapienza (MIAI Chair at IGE) joins the group, bringing physics-informed machine learning for glaciology and paleomagnetism — and the SIDERAL project with him."

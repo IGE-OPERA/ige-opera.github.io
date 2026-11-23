@@ -37,10 +37,7 @@
       <div class="archive__item card pub-card">
 
         <div class="archive__item-teaser card__teaser pub-card__teaser">
-          {% if j.logo %}
-            <img class="pub-card__logo" src="{{ j.logo | relative_url }}"
-                 alt="{{ j.abbr | default: p.journal }} logo" loading="lazy">
-          {% elsif j.abbr %}
+          {% if j.abbr %}
             <span class="pub-card__badge">{{ j.abbr }}</span>
           {% elsif p.journal and p.journal != empty %}
             <span class="pub-card__badge">{{ p.journal }}</span>

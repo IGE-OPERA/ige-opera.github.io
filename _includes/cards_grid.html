@@ -9,9 +9,11 @@
 
   Item fields: title, excerpt, image_path (optional), url (optional),
   btn_label (optional), meta (optional small text under the title).
+  rows   : "true" renders full-width horizontal row cards on desktop
+           (image left, text right); stacked cards are kept on narrow screens.
 {% endcomment %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper{% if include.rows %} feature__wrapper--rows{% endif %}">
 
   {% assign items = include.items %}
   {% if include.limit %}

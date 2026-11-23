@@ -48,14 +48,14 @@ opera_software:
 Part of our research contributes to the community models that carry climate and
 environmental science:
 
-{% include cards_grid.html items=page.community_models %}
+{% include cards_grid.html items=page.community_models rows=true %}
 
 ## OPERA software
 
 We also develop our own open-source tools — most of them born from our research on
 differentiable and hybrid Earth system modelling:
 
-{% include cards_grid.html items=page.opera_software %}
+{% include cards_grid.html items=page.opera_software rows=true %}
 
 ## More on our GitHub
 

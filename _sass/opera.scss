@@ -493,6 +493,71 @@ h1, h2, h3, h4, h5, h6,
   color: rgba($primary-color, 0.55);
 }
 
+// -- Horizontal row cards (projects / software / publications / outreach) ----
+// On desktop, each item occupies a full-width row: image left, text right.
+// Narrow screens keep the stacked card layout.
+
+@media (min-width: 48em) {
+  .feature__wrapper--rows {
+    display: block;
+  }
+
+  .feature__wrapper--rows .feature__item {
+    float: none;
+    width: auto;
+    margin-left: 0;
+    margin-bottom: 1.25rem;
+    font-size: 1em;
+
+    &:nth-child(3n + 1) {
+      clear: none;
+      margin-left: 0;
+    }
+
+    &:nth-child(3n + 2),
+    &:nth-child(3n + 3) {
+      clear: none;
+      margin-left: 0;
+    }
+  }
+
+  .feature__wrapper--rows .archive__item.card {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .feature__wrapper--rows .card__teaser {
+    flex: 0 0 32%;
+    max-width: 32%;
+    aspect-ratio: auto;
+    align-self: stretch;
+    border-right: 1px solid rgba(36, 49, 60, 0.08);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .feature__wrapper--rows .card__teaser--fallback {
+    border-bottom: 0;
+
+    .card__monogram {
+      font-size: 3.4rem;
+    }
+  }
+
+  .feature__wrapper--rows .card__body {
+    padding: 1.25rem 1.5rem;
+    justify-content: center;
+  }
+
+  .feature__wrapper--rows .archive__item-title {
+    font-size: 1.3rem;
+  }
+}
+
 
 // -- People page photos (scoped: only on the people layout) --------
 

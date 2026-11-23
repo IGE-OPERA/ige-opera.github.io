@@ -1,0 +1,55 @@
+{% comment %}
+  Generic card grid. Renders any array of items (from _data or page front
+  matter) as a Minimal Mistakes feature grid.
+
+  Parameters:
+    items  : the array to render (required)
+    type   : layout style for each item: "left", "center", or blank (grid)
+    limit  : render at most this many items (optional)
+
+  Item fields: title, excerpt, image_path (optional), url (optional),
+  btn_label (optional), meta (optional small text under the title).
+  rows   : "true" renders full-width horizontal row cards on desktop
+           (image left, text right); stacked cards are kept on narrow screens.
+{% endcomment %}
+
+<div class="feature__wrapper{% if include.rows %} feature__wrapper--rows{% endif %}">
+
+  {% assign items = include.items %}
+  {% if include.limit %}
+    {% assign items = include.items | slice: 0, include.limit %}
+  {% endif %}
+
+  {% for f in items %}
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      <div class="archive__item card">
+        {% if f.image_path %}
+          <div class="archive__item-teaser card__teaser">
+            <img src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% else %}{{ f.title }}{% endif %}" loading="lazy">
+          </div>
+        {% else %}
+          <div class="archive__item-teaser card__teaser card__teaser--fallback">
+            <span class="card__monogram">{{ f.title | truncate: 1, "" | upcase }}</span>
+          </div>
+        {% endif %}
+
+        <div class="archive__item-body card__body">
+          {% if f.title %}
+            <h3 class="archive__item-title">{{ f.title }}</h3>
+          {% endif %}
+
+          {% if f.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ f.excerpt | markdownify }}
+            </div>
+          {% endif %}
+
+          {% if f.url %}
+            <p class="card__actions"><a href="{{ f.url | relative_url }}" class="btn btn--primary">{{ f.btn_label | default: "Learn more" }}</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>

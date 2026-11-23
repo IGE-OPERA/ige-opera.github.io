@@ -1,0 +1,35 @@
+name: Sync content from Grist
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: grist-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.SYNC_TOKEN }}
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.x" }
+      - name: Sync Projects / Outreach / News / Positions from Grist
+        run: python3 scripts/sync_grist.py
+        env:
+          GRIST_DOC_ID: ${{ secrets.GRIST_DOC_ID }}
+          GRIST_API_KEY: ${{ secrets.GRIST_API_KEY }}
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet -- _data/projects.yml _data/outreach.yml _data/news.yml _data/positions.yml assets/images/projects assets/images/outreach; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add _data/projects.yml _data/outreach.yml _data/news.yml _data/positions.yml assets/images/projects assets/images/outreach
+            git commit -m "chore: sync content from Grist database"
+            git push
+          else
+            echo "No changes."
+          fi

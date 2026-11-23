@@ -1,0 +1,57 @@
+# Journal identities for the publication cards.
+# Keyed by the exact Zotero `publicationTitle` string (see
+# _data/publications.json). Fields:
+#   abbr  : short label shown when there is no logo (badge fallback)
+#   logo  : path to the journal logo/visual, shown instead of the badge
+#
+# Logos are used nominatively, to identify the venue of each publication.
+# To add a logo later: drop the file in assets/images/journals/ and add the
+# `logo:` line here. Unmapped journals automatically render a badge with the
+# full journal name; unmapped preprints render a "preprint" badge.
+
+"Atmospheric Chemistry and Physics":
+  abbr: "ACP"
+
+"Geophysical Research Letters":
+  abbr: "GRL"
+
+"Geoscientific Model Development":
+  abbr: "GMD"
+
+"Journal of Advances in Modeling Earth Systems":
+  abbr: "JAMES"
+
+"Elementa: Science of the Anthropocene":
+  abbr: "Elementa"
+
+"Environmental Data Science":
+  abbr: "EDS"
+  logo: "/assets/images/journals/environmental-data-science.jpg"
+
+"Frontiers in Marine Science":
+  abbr: "Frontiers"
+  logo: "/assets/images/journals/frontiers-marine-science.webp"
+
+"Microplastics and Nanoplastics":
+  abbr: "Microplastics"
+
+"AGU Advances":
+  abbr: "AGU Adv."
+
+"Journal of Climate":
+  abbr: "J. Climate"
+
+"Ocean Science":
+  abbr: "OS"
+
+# --- preprint servers (matched by DOI in the publications template) ---
+
+"EGUsphere":
+  abbr: "EGUsphere"
+  logo: "/assets/images/journals/egusphere.png"
+
+"EarthArXiv":
+  abbr: "EarthArXiv"
+
+"preprint":
+  abbr: "preprint"

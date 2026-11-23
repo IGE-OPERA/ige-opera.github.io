@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Schematic of modular geoscientific models connected by clean APIs, with one component being swapped for a new version">
+  <rect width="600" height="400" fill="#ffffff"/>
+
+  <defs>
+    <marker id="m-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#37699E"/>
+    </marker>
+    <marker id="m-arrow-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94A7B8"/>
+    </marker>
+  </defs>
+
+  <!-- API bus -->
+  <rect x="70" y="188" width="460" height="26" rx="13" fill="#F2F6FA" stroke="#37699E" stroke-width="1.6"/>
+  <text x="300" y="206" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-size="13" font-weight="bold" fill="#37699E">coupler &#183; API</text>
+
+  <!-- plugs connecting modules to the bus -->
+  <g fill="#C9D8E4">
+    <rect x="150" y="196" width="10" height="10" rx="2"/>
+    <rect x="285" y="196" width="10" height="10" rx="2"/>
+    <rect x="420" y="196" width="10" height="10" rx="2"/>
+    <rect x="150" y="196" width="10" height="10" rx="2" transform="translate(67,0)"/>
+    <rect x="285" y="196" width="10" height="10" rx="2" transform="translate(67,0)"/>
+  </g>
+
+  <!-- row of model components (top of bus) -->
+  <g font-family="Verdana, Geneva, sans-serif" font-size="13.5" text-anchor="middle">
+    <rect x="105" y="110" width="105" height="58" rx="9" fill="#F2F6FA" stroke="#578BBD" stroke-width="1.6"/>
+    <text x="157" y="144" fill="#24313C">ocean</text>
+
+    <rect x="241" y="110" width="105" height="58" rx="9" fill="#F2F6FA" stroke="#578BBD" stroke-width="1.6"/>
+    <text x="293" y="144" fill="#24313C">sea ice</text>
+
+    <rect x="377" y="110" width="105" height="58" rx="9" fill="#F2F6FA" stroke="#578BBD" stroke-width="1.6"/>
+    <text x="429" y="144" fill="#24313C">atmosphere</text>
+  </g>
+  <g stroke="#94A7B8" stroke-width="1.6">
+    <line x1="157" y1="168" x2="157" y2="188"/>
+    <line x1="293" y1="168" x2="293" y2="188"/>
+    <line x1="429" y1="168" x2="429" y2="188"/>
+  </g>
+
+  <!-- consumer components (below bus) -->
+  <g font-family="Verdana, Geneva, sans-serif" font-size="13.5" text-anchor="middle">
+    <rect x="105" y="236" width="105" height="58" rx="9" fill="#FBFCFD" stroke="#94A7B8" stroke-width="1.6"/>
+    <text x="157" y="263" fill="#24313C">monitoring</text>
+    <text x="157" y="281" fill="#5A6B7A" font-size="12">system</text>
+
+    <rect x="377" y="236" width="105" height="58" rx="9" fill="#FBFCFD" stroke="#94A7B8" stroke-width="1.6"/>
+    <text x="429" y="263" fill="#24313C">ML tools</text>
+    <text x="429" y="281" fill="#5A6B7A" font-size="12">emulation &#183; calibration</text>
+  </g>
+  <g stroke="#94A7B8" stroke-width="1.6">
+    <line x1="157" y1="214" x2="157" y2="236"/>
+    <line x1="429" y1="214" x2="429" y2="236"/>
+  </g>
+
+  <!-- old component being swapped out (dashed) -->
+  <rect x="241" y="300" width="105 " height="54" rx="9" fill="none" stroke="#94A7B8" stroke-width="1.6" stroke-dasharray="6 5"/>
+  <text x="293" y="331" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-size="13.5" fill="#5A6B7A">old version</text>
+
+  <!-- swap arrow -->
+  <path d="M293 300 C 293 278, 300 268, 315 258" fill="none" stroke="#37699E" stroke-width="2" marker-end="url(#m-arrow-grey)"/>
+
+  <!-- new component card -->
+  <rect x="455" y="300" width="110" height="54" rx="9" fill="#F2F6FA" stroke="#37699E" stroke-width="1.8"/>
+  <text x="510" y="324" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-size="13.5" font-weight="bold" fill="#37699E">new version</text>
+  <text x="510" y="342" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-size="12" fill="#5A6B7A">same interfaces</text>
+  <path d="M446 327 h-44" fill="none" stroke="#37699E" stroke-width="2" marker-end="url(#m-arrow)"/>
+
+  <!-- caption -->
+  <text x="300" y="62" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="bold" fill="#24313C">interoperable, observable, replaceable</text>
+  <text x="90" y="87" font-family="Verdana, Geneva, sans-serif" font-size="12.5" fill="#5A6B7A">modules speak through stable APIs &#8212; swap the inside, keep the plugs</text>
+</svg>

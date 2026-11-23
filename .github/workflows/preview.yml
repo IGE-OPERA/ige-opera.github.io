@@ -1,0 +1,32 @@
+name: Preview (redesign branch)
+on:
+  push:
+    branches: [redesign]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: preview-build
+  cancel-in-progress: true
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Build with /preview baseurl
+        run: bundle exec jekyll build --baseurl /preview
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-site
+          path: _site
+          retention-days: 14
+      - name: Done
+        run: |
+          echo "Preview artifact 'preview-site' uploaded."
+          echo "It is published to https://ige-opera.github.io/preview/ by the"
+          echo "scheduled 'Publish preview' workflow in IGE-OPERA/preview."

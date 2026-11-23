@@ -3,8 +3,52 @@
 search: false
 ---
 
-
 @charset "utf-8";
+
+// ------------------------------------------------------------------
+// OPERA design tokens — must be set BEFORE the Minimal Mistakes
+// imports so that the theme's !default variables pick them up.
+// ------------------------------------------------------------------
+
+$doc-font-size: 16;
+
+$primary-color: #37699e;               // deep OPERA blue
+$info-color: #578bbd;                   // logo blue
+$accent-stripe: #578bbd;
+
+$text-color: #24313c;
+$muted-text-color: #5a6b7a;
+$background-color: #fcfcfa;
+$code-background-color: #f7fafa;
+$border-color: #e3e8ec;
+$form-background-color: #f0f4f7;
+$footer-background-color: #f2f5f7;
+
+$link-color: #2f5f92;
+$link-color-hover: #1e4671;
+$link-color-visited: #37699e;
+$masthead-link-color: #37699e;
+$masthead-link-color-hover: #1e4671;
+
+$global-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Helvetica Neue", Arial, sans-serif;
+$header-font-family: "Fraunces", Georgia, "Times New Roman", serif;
+$caption-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Helvetica Neue", Arial, sans-serif;
+
+// ------------------------------------------------------------------
+// Theme
+// ------------------------------------------------------------------
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// ------------------------------------------------------------------
+// OPERA custom layers
+// ------------------------------------------------------------------
+
+@import "opera_fonts";
+@import "opera";
 
 // from computationalcameras.org
 .videos__container {
@@ -33,20 +77,3 @@ ol.bibliography {
     margin-top: 0.4em;
   }
 }
-
-// Ensure consistent image height on people page (no cropping)
-.feature__wrapper .archive__item-teaser {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  height: 200px; // Adjust this value as needed
-
-  img {
-    height: 100%;
-    width: auto;
-    max-width: 100%;
-  }
-}
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials

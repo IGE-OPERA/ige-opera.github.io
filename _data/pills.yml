@@ -1,0 +1,14 @@
+# Research pills — plain-language summaries of our papers
+#
+# One line per publication, keyed by the Zotero item key shown in
+# _data/publications.json (the `key` field of each card). Only keys present
+# here render a pill on the publication page; missing keys are fine.
+#
+# How to produce a pill (author-validated workflow):
+#   1. run:  uv run llm4pills generate <DOI-or-arXiv-id> --audience general
+#   2. check the generated one-line takeaway against the paper,
+#   3. add an entry here:   <ZOTERO_KEY>: "Your validated one-liner."
+#
+# Tools and setup: https://gricad-gitlab.univ-grenoble-alpes.fr/miai-formation-gricad/llm4pills
+
+{}

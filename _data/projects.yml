@@ -37,7 +37,7 @@
   status: "current"
   excerpt: "Physics-informed machine learning for glaciology and paleomagnetism <br> **Contact:** F. Sapienza"
   url: "https://facusapienza.org"
-  image_path: "/assets/images/projects/sideral.png"
+  alt: "SIDERAL"
 
 - title: "BubblePlast"
   status: "current"

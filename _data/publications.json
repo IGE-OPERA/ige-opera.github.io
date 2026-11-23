@@ -1,0 +1,1106 @@
+[
+  {
+    "key": "8Q5QRS2W",
+    "type": "journalArticle",
+    "title": "Deploying machine learning components coupled to Earth System Models with OASIS3-MCT (v6) and Eophis (v1.1)",
+    "authors": [
+      {
+        "name": "Barge, A",
+        "member": true
+      },
+      {
+        "name": "Le Sommer, J",
+        "member": true
+      },
+      {
+        "name": "Storto, A",
+        "member": false
+      },
+      {
+        "name": "Valcke, S",
+        "member": false
+      }
+    ],
+    "year": 2026,
+    "month": 10,
+    "journal": "Geoscientific Model Development",
+    "volume": "19",
+    "issue": "21",
+    "pages": "10345-10363",
+    "publisher": "",
+    "doi": "10.5194/gmd-19-10345-2026",
+    "url": "https://gmd.copernicus.org/articles/19/10345/2026/"
+  },
+  {
+    "key": "BPHQJC3T",
+    "type": "journalArticle",
+    "title": "Using the power law size distribution to extrapolate and compare microplastic number and mass concentrations in environmental media",
+    "authors": [
+      {
+        "name": "Segur, T",
+        "member": false
+      },
+      {
+        "name": "Hough, I",
+        "member": true
+      },
+      {
+        "name": "Dobiasova, N",
+        "member": false
+      },
+      {
+        "name": "Voisin, D",
+        "member": false
+      },
+      {
+        "name": "Richon, C",
+        "member": false
+      },
+      {
+        "name": "Angot, H",
+        "member": false
+      },
+      {
+        "name": "Thomas, J L",
+        "member": true
+      },
+      {
+        "name": "Sonke, J E",
+        "member": false
+      }
+    ],
+    "year": 2026,
+    "month": 6,
+    "journal": "Microplastics and Nanoplastics",
+    "volume": "6",
+    "issue": "1",
+    "pages": "45",
+    "publisher": "",
+    "doi": "10.1186/s43591-026-00205-5",
+    "url": "https://doi.org/10.1186/s43591-026-00205-5"
+  },
+  {
+    "key": "F75BEWLA",
+    "type": "journalArticle",
+    "title": "Understanding the Spread in Climate Feedbacks and Polar Amplification Using Coordinated Multimodel Experiments and CMIP6",
+    "authors": [
+      {
+        "name": "Linke, O",
+        "member": false
+      },
+      {
+        "name": "Lenhardt, J",
+        "member": false
+      },
+      {
+        "name": "Lund, M T",
+        "member": false
+      },
+      {
+        "name": "Merikanto, J",
+        "member": false
+      },
+      {
+        "name": "Naakka, T",
+        "member": false
+      },
+      {
+        "name": "Nordling, K",
+        "member": false
+      },
+      {
+        "name": "Räisänen, P",
+        "member": false
+      },
+      {
+        "name": "Samset, B H",
+        "member": false
+      },
+      {
+        "name": "Thomas, J L",
+        "member": true
+      },
+      {
+        "name": "Ekman, A M L",
+        "member": false
+      }
+    ],
+    "year": 2026,
+    "month": 6,
+    "journal": "Journal of Climate",
+    "volume": "39",
+    "issue": "14",
+    "pages": "4049-4070",
+    "publisher": "American Meteorological Society",
+    "doi": "10.1175/JCLI-D-25-0551.1",
+    "url": "https://journals.ametsoc.org/view/journals/clim/39/14/JCLI-D-25-0551.1.xml"
+  },
+  {
+    "key": "EQ2W4C7U",
+    "type": "preprint",
+    "title": "Equation discovery for climate impact: emulating impact models for unexplored climate scenario with interpretable symbolic regression",
+    "authors": [
+      {
+        "name": "Le Roux, E",
+        "member": false
+      },
+      {
+        "name": "Tandeo, P",
+        "member": false
+      },
+      {
+        "name": "Granero Belinchon, C",
+        "member": false
+      },
+      {
+        "name": "Baklouti, M",
+        "member": false
+      },
+      {
+        "name": "Le Sommer, J",
+        "member": true
+      },
+      {
+        "name": "Sevault, F",
+        "member": false
+      },
+      {
+        "name": "Somot, S",
+        "member": false
+      },
+      {
+        "name": "Doury, A",
+        "member": false
+      },
+      {
+        "name": "Al Najar, M",
+        "member": false
+      }
+    ],
+    "year": 2026,
+    "month": 5,
+    "journal": "",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "publisher": "",
+    "doi": "10.5194/egusphere-2026-1991",
+    "url": "https://egusphere.copernicus.org/preprints/2026/egusphere-2026-1991/"
+  },
+  {
+    "key": "JCXXGGH3",
+    "type": "preprint",
+    "title": "Learning-Based Methods and the Future of Numerical Ocean and Sea Ice Modeling",
+    "authors": [
+      {
+        "name": "Durand, C",
+        "member": false
+      },
+      {
+        "name": "Botvynko, D",
+        "member": false
+      },
+      {
+        "name": "Frezat, H",
+        "member": true
+      },
+      {
+        "name": "Grande, D",
+        "member": false
+      },
+      {
+        "name": "Storto, A",
+        "member": false
+      },
+      {
+        "name": "Greenberg, D",
+        "member": false
+      },
+      {
+        "name": "Fablet, R",
+        "member": false
+      },
+      {
+        "name": "Ouala, S",
+        "member": false
+      },
+      {
+        "name": "Le Sommer, J",
+        "member": true
+      }
+    ],
+    "year": 2026,
+    "month": 4,
+    "journal": "",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "publisher": "",
+    "doi": "10.31223/X5HB6S",
+    "url": "https://eartharxiv.org/repository/view/12581/"
+  },
+  {
+    "key": "AY599NJI",
+    "type": "journalArticle",
+    "title": "Thoughts on prognostically modeling an eddying double-gyre ensemble mean",
+    "authors": [
+      {
+        "name": "Poje, A C",
+        "member": false
+      },
+      {
+        "name": "Uchida, T",
+        "member": false
+      },
+      {
+        "name": "Jamet, Q",
+        "member": false
+      },
+      {
+        "name": "Sun, L",
+        "member": false
+      },
+      {
+        "name": "Penduff, T",
+        "member": false
+      },
+      {
+        "name": "Deremble, B",
+        "member": true
+      },
+      {
+        "name": "Schoonover, J",
+        "member": false
+      },
+      {
+        "name": "Trapanese, M",
+        "member": false
+      },
+      {
+        "name": "Wienders, N",
+        "member": false
+      },
+      {
+        "name": "Dewar, W K",
+        "member": false
+      }
+    ],
+    "year": 2026,
+    "month": 3,
+    "journal": "Frontiers in Marine Science",
+    "volume": "13",
+    "issue": "",
+    "pages": "1739607",
+    "publisher": "",
+    "doi": "10.3389/fmars.2026.1739607",
+    "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1739607/full"
+  },
+  {
+    "key": "FI9DCMHK",
+    "type": "journalArticle",
+    "title": "The biogenic sulfur cycle in the coupled ocean–sea ice–atmosphere system",
+    "authors": [
+      {
+        "name": "Ishino, S",
+        "member": false
+      },
+      {
+        "name": "Willis, M D",
+        "member": false
+      },
+      {
+        "name": "Angot, H",
+        "member": false
+      },
+      {
+        "name": "Bartels-Rausch, T",
+        "member": false
+      },
+      {
+        "name": "Crabeck, O",
+        "member": false
+      },
+      {
+        "name": "Delille, B",
+        "member": false
+      },
+      {
+        "name": "Dunne, E",
+        "member": false
+      },
+      {
+        "name": "Franklin, E",
+        "member": false
+      },
+      {
+        "name": "Haddon, A",
+        "member": false
+      },
+      {
+        "name": "Hayashida, H",
+        "member": false
+      },
+      {
+        "name": "Joge, S D",
+        "member": false
+      },
+      {
+        "name": "Lapere, R",
+        "member": false
+      },
+      {
+        "name": "Lim, H",
+        "member": false
+      },
+      {
+        "name": "Mahajan, A S",
+        "member": false
+      },
+      {
+        "name": "Mallet, M D",
+        "member": false
+      },
+      {
+        "name": "Manville, G",
+        "member": false
+      },
+      {
+        "name": "Marelle, L",
+        "member": false
+      },
+      {
+        "name": "Nomura, D",
+        "member": false
+      },
+      {
+        "name": "Pratt, K A",
+        "member": false
+      },
+      {
+        "name": "Peeken, I",
+        "member": false
+      },
+      {
+        "name": "Price, R",
+        "member": true
+      },
+      {
+        "name": "Simó, R",
+        "member": false
+      },
+      {
+        "name": "Stefels, J",
+        "member": false
+      },
+      {
+        "name": "Thomas, J L",
+        "member": true
+      },
+      {
+        "name": "Zang, C L",
+        "member": false
+      },
+      {
+        "name": "Steiner, N",
+        "member": false
+      }
+    ],
+    "year": 2026,
+    "month": 2,
+    "journal": "Elementa: Science of the Anthropocene",
+    "volume": "14",
+    "issue": "1",
+    "pages": "1-60",
+    "publisher": "",
+    "doi": "10.1525/elementa.2025.00067",
+    "url": "https://doi.org/10.1525/elementa.2025.00067"
+  },
+  {
+    "key": "QY2VZ3EK",
+    "type": "journalArticle",
+    "title": "Polar primary aerosols across the ocean-sea ice-snow-atmosphere interface: From sources to impacts",
+    "authors": [
+      {
+        "name": "Creamean, J M",
+        "member": false
+      },
+      {
+        "name": "Miller, L A",
+        "member": false
+      },
+      {
+        "name": "van Pinxteren, M",
+        "member": false
+      },
+      {
+        "name": "Crabeck, O",
+        "member": false
+      },
+      {
+        "name": "Steiner, N S",
+        "member": false
+      },
+      {
+        "name": "Marelle, L",
+        "member": false
+      },
+      {
+        "name": "Deschepper, I",
+        "member": false
+      },
+      {
+        "name": "Lapere, R",
+        "member": false
+      },
+      {
+        "name": "León-Marcos, A",
+        "member": false
+      },
+      {
+        "name": "Pratt, K A",
+        "member": false
+      },
+      {
+        "name": "Thomas, J L",
+        "member": true
+      },
+      {
+        "name": "Da Silva, A",
+        "member": false
+      },
+      {
+        "name": "Frey, M M",
+        "member": false
+      },
+      {
+        "name": "Peeken, I",
+        "member": false
+      },
+      {
+        "name": "Horowitz, H M",
+        "member": false
+      },
+      {
+        "name": "Willis, M D",
+        "member": false
+      },
+      {
+        "name": "Price, R",
+        "member": true
+      }
+    ],
+    "year": 2026,
+    "month": 2,
+    "journal": "Elementa: Science of the Anthropocene",
+    "volume": "14",
+    "issue": "1",
+    "pages": "00065",
+    "publisher": "",
+    "doi": "10.1525/elementa.2025.00065",
+    "url": "https://doi.org/10.1525/elementa.2025.00065"
+  },
+  {
+    "key": "JTHCXX2F",
+    "type": "journalArticle",
+    "title": "Neural ocean forecasting from sparse satellite-derived observations: A case study for SSH dynamics and altimetry data",
+    "authors": [
+      {
+        "name": "Botvynko, D",
+        "member": false
+      },
+      {
+        "name": "Haslée, P",
+        "member": false
+      },
+      {
+        "name": "Gaultier, L",
+        "member": false
+      },
+      {
+        "name": "Le Sommer, J",
+        "member": true
+      },
+      {
+        "name": "De Boyer Montégut, C",
+        "member": false
+      },
+      {
+        "name": "El Aouni, A",
+        "member": false
+      },
+      {
+        "name": "Chapron, B",
+        "member": false
+      },
+      {
+        "name": "Fablet, R",
+        "member": false
+      }
+    ],
+    "year": 2026,
+    "month": null,
+    "journal": "Environmental Data Science",
+    "volume": "5",
+    "issue": "",
+    "pages": "e43",
+    "publisher": "",
+    "doi": "10.1017/eds.2026.10063",
+    "url": "https://www.cambridge.org/core/product/identifier/S2634460226100636/type/journal_article"
+  },
+  {
+    "key": "6N3ZQP6T",
+    "type": "journalArticle",
+    "title": "Marine Secondary Aerosols Are Required for Modeling Clouds in the Arctic",
+    "authors": [
+      {
+        "name": "Lapere, R",
+        "member": false
+      },
+      {
+        "name": "Haddon, A",
+        "member": false
+      },
+      {
+        "name": "Price, R",
+        "member": true
+      },
+      {
+        "name": "Marelle, L",
+        "member": false
+      },
+      {
+        "name": "Monahan, A H",
+        "member": false
+      },
+      {
+        "name": "Steiner, N",
+        "member": false
+      },
+      {
+        "name": "Raut, J",
+        "member": false
+      },
+      {
+        "name": "Bastien, L",
+        "member": false
+      },
+      {
+        "name": "Willis, M D",
+        "member": false
+      },
+      {
+        "name": "Thomas, J L",
+        "member": true
+      }
+    ],
+    "year": 2026,
+    "month": null,
+    "journal": "Geophysical Research Letters",
+    "volume": "53",
+    "issue": "13",
+    "pages": "e2026GL121724",
+    "publisher": "",
+    "doi": "10.1029/2026GL121724",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1029/2026GL121724"
+  },
+  {
+    "key": "UHEMATQL",
+    "type": "journalArticle",
+    "title": "Impact of Tidal Forcing on Surface Particle Transport Properties: Insights From Twin Ocean Simulations",
+    "authors": [
+      {
+        "name": "Gómez‐Navarro, L",
+        "member": false
+      },
+      {
+        "name": "Van Sebille, E",
+        "member": false
+      },
+      {
+        "name": "Morales‐Márquez, V",
+        "member": false
+      },
+      {
+        "name": "Hernández‐Carrasco, I",
+        "member": false
+      },
+      {
+        "name": "Albert, A",
+        "member": false
+      },
+      {
+        "name": "Ubelmann, C",
+        "member": false
+      },
+      {
+        "name": "Le Sommer, J",
+        "member": true
+      },
+      {
+        "name": "Molines, J",
+        "member": false
+      },
+      {
+        "name": "Brodeau, L",
+        "member": false
+      }
+    ],
+    "year": 2026,
+    "month": null,
+    "journal": "Journal of Advances in Modeling Earth Systems",
+    "volume": "18",
+    "issue": "2",
+    "pages": "e2024MS004805",
+    "publisher": "",
+    "doi": "10.1029/2024MS004805",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024MS004805"
+  },
+  {
+    "key": "F9CY9AQR",
+    "type": "journalArticle",
+    "title": "Gradient‐Free Online Learning of Subgrid‐Scale Dynamics With Neural Emulators",
+    "authors": [
+      {
+        "name": "Frezat, H",
+        "member": true
+      },
+      {
+        "name": "Fablet, R",
+        "member": false
+      },
+      {
+        "name": "Balarac, G",
+        "member": false
+      },
+      {
+        "name": "Le Sommer, J",
+        "member": true
+      }
+    ],
+    "year": 2026,
+    "month": null,
+    "journal": "Journal of Advances in Modeling Earth Systems",
+    "volume": "18",
+    "issue": "8",
+    "pages": "e2023MS004140",
+    "publisher": "",
+    "doi": "10.1029/2023MS004140",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023MS004140"
+  },
+  {
+    "key": "I5J6YARM",
+    "type": "journalArticle",
+    "title": "Assessing Data‐Driven Eddy‐Parameterizations in an Atlantic Sector Model",
+    "authors": [
+      {
+        "name": "Kamm, D",
+        "member": false
+      },
+      {
+        "name": "Perezhogin, P",
+        "member": false
+      },
+      {
+        "name": "Deshayes, J",
+        "member": false
+      },
+      {
+        "name": "Meunier, E",
+        "member": false
+      },
+      {
+        "name": "Barge, A",
+        "member": true
+      }
+    ],
+    "year": 2026,
+    "month": null,
+    "journal": "Journal of Advances in Modeling Earth Systems",
+    "volume": "18",
+    "issue": "6",
+    "pages": "e2026MS005816",
+    "publisher": "",
+    "doi": "10.1029/2026MS005816",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026MS005816"
+  },
+  {
+    "key": "ACVHKKQW",
+    "type": "journalArticle",
+    "title": "Aerosol-Cloud Interactions: Overcoming a Barrier to Projecting Near-Term Climate Evolution and Risk",
+    "authors": [
+      {
+        "name": "Im, U",
+        "member": false
+      },
+      {
+        "name": "Samset, B H",
+        "member": false
+      },
+      {
+        "name": "Nenes, A",
+        "member": false
+      },
+      {
+        "name": "Thomas, J L",
+        "member": true
+      },
+      {
+        "name": "Kokkola, H",
+        "member": false
+      },
+      {
+        "name": "Dubovik, O",
+        "member": false
+      },
+      {
+        "name": "Amiridis, V",
+        "member": false
+      },
+      {
+        "name": "Arola, A",
+        "member": false
+      },
+      {
+        "name": "Bellouin, N",
+        "member": false
+      },
+      {
+        "name": "Benedetti, A",
+        "member": false
+      },
+      {
+        "name": "Bilde, M",
+        "member": false
+      },
+      {
+        "name": "Blichner, S",
+        "member": false
+      },
+      {
+        "name": "Decesari, S",
+        "member": false
+      },
+      {
+        "name": "Ekman, A M L",
+        "member": false
+      },
+      {
+        "name": "García-Pando, C P",
+        "member": false
+      },
+      {
+        "name": "Gross, S",
+        "member": false
+      },
+      {
+        "name": "Gryspeerdt, E",
+        "member": false
+      },
+      {
+        "name": "Hasekamp, O",
+        "member": false
+      },
+      {
+        "name": "Kahn, R A",
+        "member": false
+      },
+      {
+        "name": "Laakso, A",
+        "member": false
+      },
+      {
+        "name": "Lohmann, U",
+        "member": false
+      },
+      {
+        "name": "Marelle, L",
+        "member": false
+      },
+      {
+        "name": "Massling, A H",
+        "member": false
+      },
+      {
+        "name": "Myhre, C L",
+        "member": false
+      },
+      {
+        "name": "Pöhlker, M",
+        "member": false
+      },
+      {
+        "name": "Quaas, J",
+        "member": false
+      },
+      {
+        "name": "Raatikainen, T",
+        "member": false
+      },
+      {
+        "name": "Riipinen, I",
+        "member": false
+      },
+      {
+        "name": "Schmale, J",
+        "member": false
+      },
+      {
+        "name": "Seifert, P",
+        "member": false
+      },
+      {
+        "name": "Skov, H",
+        "member": false
+      },
+      {
+        "name": "Smith, C",
+        "member": false
+      },
+      {
+        "name": "Sporre, M K",
+        "member": false
+      },
+      {
+        "name": "Stier, P",
+        "member": false
+      },
+      {
+        "name": "Storelvmo, T",
+        "member": false
+      },
+      {
+        "name": "Tsigaridis, K",
+        "member": false
+      },
+      {
+        "name": "van Diedenhoven, B",
+        "member": false
+      },
+      {
+        "name": "Virtanen, A",
+        "member": false
+      },
+      {
+        "name": "Wandinger, U",
+        "member": false
+      },
+      {
+        "name": "Wilcox, L J",
+        "member": false
+      },
+      {
+        "name": "Zieger, P",
+        "member": false
+      }
+    ],
+    "year": 2026,
+    "month": null,
+    "journal": "AGU Advances",
+    "volume": "7",
+    "issue": "1",
+    "pages": "e2025AV001872",
+    "publisher": "",
+    "doi": "10.1029/2025AV001872",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1029/2025AV001872"
+  },
+  {
+    "key": "79BWBZ29",
+    "type": "journalArticle",
+    "title": "A Strictly Geostrophic Product of Sea-Surface Velocities From the SWOT Fast-Sampling Phase",
+    "authors": [
+      {
+        "name": "Uchida, T",
+        "member": false
+      },
+      {
+        "name": "Yadidya, B",
+        "member": false
+      },
+      {
+        "name": "Bertrand, V",
+        "member": true
+      },
+      {
+        "name": "Chang, J (",
+        "member": false
+      },
+      {
+        "name": "Arbic, B K",
+        "member": false
+      },
+      {
+        "name": "Shriver, J F",
+        "member": false
+      },
+      {
+        "name": "Le Sommer, J",
+        "member": true
+      }
+    ],
+    "year": 2026,
+    "month": null,
+    "journal": "Geophysical Research Letters",
+    "volume": "53",
+    "issue": "14",
+    "pages": "e2026GL121978",
+    "publisher": "",
+    "doi": "10.1029/2026GL121978",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1029/2026GL121978"
+  },
+  {
+    "key": "XKJ65R7M",
+    "type": "journalArticle",
+    "title": "A robust minimization-based framework for cyclogeostrophic ocean surface current retrieval",
+    "authors": [
+      {
+        "name": "Bertrand, V",
+        "member": true
+      },
+      {
+        "name": "Le Sommer, J",
+        "member": true
+      },
+      {
+        "name": "Vianna Zaia De Almeida, V",
+        "member": false
+      },
+      {
+        "name": "Samson, A",
+        "member": false
+      },
+      {
+        "name": "Cosme, E",
+        "member": true
+      }
+    ],
+    "year": 2026,
+    "month": null,
+    "journal": "Ocean Science",
+    "volume": "22",
+    "issue": "1",
+    "pages": "241–255",
+    "publisher": "",
+    "doi": "10.5194/os-22-241-2026",
+    "url": "https://os.copernicus.org/articles/22/241/2026/"
+  },
+  {
+    "key": "KL2V9U7I",
+    "type": "journalArticle",
+    "title": "Climate-driven chemistry and aerosol feedbacks in CMIP6 Earth system models",
+    "authors": [
+      {
+        "name": "Thornhill, G",
+        "member": false
+      },
+      {
+        "name": "Collins, W",
+        "member": false
+      },
+      {
+        "name": "Olivié, D",
+        "member": false
+      },
+      {
+        "name": "Skeie, R B",
+        "member": false
+      },
+      {
+        "name": "Archibald, A",
+        "member": false
+      },
+      {
+        "name": "Bauer, S",
+        "member": false
+      },
+      {
+        "name": "Checa-Garcia, R",
+        "member": false
+      },
+      {
+        "name": "Fiedler, S",
+        "member": false
+      },
+      {
+        "name": "Folberth, G",
+        "member": false
+      },
+      {
+        "name": "Gjermundsen, A",
+        "member": false
+      },
+      {
+        "name": "Horowitz, L",
+        "member": false
+      },
+      {
+        "name": "Lamarque, J",
+        "member": false
+      },
+      {
+        "name": "Michou, M",
+        "member": false
+      },
+      {
+        "name": "Mulcahy, J",
+        "member": false
+      },
+      {
+        "name": "Nabat, P",
+        "member": false
+      },
+      {
+        "name": "Naik, V",
+        "member": false
+      },
+      {
+        "name": "O'Connor, F M",
+        "member": false
+      },
+      {
+        "name": "Paulot, F",
+        "member": false
+      },
+      {
+        "name": "Schulz, M",
+        "member": false
+      },
+      {
+        "name": "Scott, C E",
+        "member": false
+      },
+      {
+        "name": "Séférian, R",
+        "member": false
+      },
+      {
+        "name": "Smith, C",
+        "member": false
+      },
+      {
+        "name": "Takemura, T",
+        "member": false
+      },
+      {
+        "name": "Tilmes, S",
+        "member": false
+      },
+      {
+        "name": "Tsigaridis, K",
+        "member": false
+      },
+      {
+        "name": "Weber, J",
+        "member": false
+      }
+    ],
+    "year": 2021,
+    "month": 1,
+    "journal": "Atmospheric Chemistry and Physics",
+    "volume": "21",
+    "issue": "2",
+    "pages": "1105-1126",
+    "publisher": "Copernicus GmbH",
+    "doi": "10.5194/acp-21-1105-2021",
+    "url": "https://acp.copernicus.org/articles/21/1105/2021/"
+  }
+]

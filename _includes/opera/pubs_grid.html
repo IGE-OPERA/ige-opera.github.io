@@ -1,0 +1,69 @@
+{% comment %}
+  Publication cards (CERTAINTY-style): banner artwork when available,
+  authors with group members in bold, journal reference, DOI link and the
+  plain-language "research pill" line when one exists for the paper.
+
+  Parameters:
+    items : the publications array (from _data/publications.json)
+    limit : render at most N cards (optional)
+{% endcomment %}
+
+<div class="feature__wrapper feature__wrapper--pubs">
+
+  {% assign pubs = include.items %}
+  {% if include.limit %}
+    {% assign pubs = include.items | slice: 0, include.limit %}
+  {% endif %}
+
+  {% for p in pubs %}
+
+    {% assign art = site.data.artwork[p.key] %}
+    {% assign pill = site.data.pills[p.key] %}
+
+    <div class="feature__item">
+      <div class="archive__item card pub-card">
+
+        {% if art %}
+          <div class="archive__item-teaser card__teaser">
+            <img src="{{ art | relative_url }}" alt="Figure from the paper {{ p.title | truncate: 80 }}" loading="lazy">
+          </div>
+        {% else %}
+          <div class="archive__item-teaser card__teaser card__teaser--fallback pub-card__fallback">
+            <span class="pub-card__glyph">{{ p.journal | truncate: 1, "" }}{% if p.journal == "" %}{{ p.type | truncate: 1, "" }}{% endif %}</span>
+          </div>
+        {% endif %}
+
+        <div class="archive__item-body card__body pub-card__body">
+
+          <h3 class="archive__item-title pub-card__title">
+            {% if p.doi %}
+              <a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>
+            {% elsif p.url %}
+              <a href="{{ p.url }}">{{ p.title }}</a>
+            {% else %}
+              {{ p.title }}
+            {% endif %}
+          </h3>
+
+          {% if pill %}
+            <p class="pub-card__pill">{{ pill }}</p>
+          {% endif %}
+
+          <p class="pub-card__authors">
+            {%- for a in p.authors %}
+              {%- if a.member %}<strong>{{ a.name }}</strong>{% if forloop.last != true %}; {% endif %}{%- else %}{{ a.name }}{% if forloop.last != true %}; {% endif %}{%- endif %}
+            {%- endfor %}
+          </p>
+
+          <p class="pub-card__ref">
+            {% if p.journal %}<em>{{ p.journal }}</em>{% if p.volume %} <strong>{{ p.volume }}</strong>{% endif %}{% if p.issue %} ({{ p.issue }}){% endif %}{% if p.pages %}, {{ p.pages }}{% endif %},{% endif %}
+            {{ p.year }}{% if p.doi %} &middot; <a href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>{% elsif p.url %} &middot; <a href="{{ p.url }}">link</a>{% endif %}
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+  {% endfor %}
+
+</div>

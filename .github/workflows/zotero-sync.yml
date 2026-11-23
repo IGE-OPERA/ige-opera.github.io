@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  issues: write
 concurrency:
   group: zotero-sync
   cancel-in-progress: false
@@ -17,18 +18,57 @@ jobs:
           token: ${{ secrets.SYNC_TOKEN }}
       - uses: actions/setup-python@v5
         with: { python-version: "3.x" }
-      - name: Regenerate publications.bib from Zotero
+      - name: Regenerate publications.bib and publications.json from Zotero
+        id: zotero
         run: python3 scripts/sync_zotero.py
         env:
           ZOTERO_GROUP_ID: "6427155"
+      - name: Fetch banner artwork for new papers (best effort)
+        run: python3 scripts/fetch_publication_artwork.py
       - name: Commit if changed
         run: |
-          if ! git diff --quiet -- _data/publications.bib; then
+          if ! git diff --quiet -- _data/publications.bib _data/publications.json _data/artwork.json assets/images/publications; then
             git config user.name  "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add _data/publications.bib
+            git add _data/publications.bib _data/publications.json _data/artwork.json assets/images/publications
             git commit -m "chore: sync publications from Zotero library"
             git push
           else
             echo "No changes."
           fi
+      - name: Open an issue listing papers needing pills
+        if: ${{ steps.zotero.outputs.new_papers != '' && steps.zotero.outputs.new_papers != '[]' }}
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
+          NEW_PAPERS: ${{ steps.zotero.outputs.new_papers }}
+        run: |
+          COUNT=$(python3 -c 'import json,os; print(len(json.loads(os.environ["NEW_PAPERS"])))')
+          python3 - <<'EOF' > /tmp/issue-body.md
+          import json, os
+          papers = json.loads(os.environ["NEW_PAPERS"])
+          print("New papers were added to the Zotero group library.")
+          print()
+          print("For each one, generate a plain-language `research pill` "
+                "with [llm4pills](https://gricad-gitlab.univ-grenoble-alpes.fr/miai-formation-gricad/llm4pills), "
+                "have it checked against the paper, and add it to `_data/pills.yml` "
+                "(see `docs/pills-runbook.md`).")
+          print()
+          for p in papers:
+              ident = p["doi"] or p["url"] or p["key"]
+              print(f"- [ ] **{p['title']}** — `{ident}` (key `{p['key']}`)")
+          EOF
+          gh issue create \
+            --title "Papers needing research pills (${COUNT} new)" \
+            --body-file /tmp/issue-body.md \
+            --label "pills" 2>/dev/null || \
+          gh issue create --title "Papers needing research pills (${COUNT} new)" --body-file /tmp/issue-body.md
+      - name: Close completed pills issues
+        if: ${{ steps.zotero.outputs.new_papers == '' || steps.zotero.outputs.new_papers == '[]' }}
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          for n in $(gh issue list --label pills --state open --json number --jq '.[].number'); do
+            if ! grep -q '\- \[ \]' <(gh issue view "$n" --json body --jq .body); then
+              gh issue close "$n" --comment "All pills generated — closing automatically."
+            fi
+          done || true

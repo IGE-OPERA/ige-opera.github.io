@@ -430,6 +430,70 @@ h1, h2, h3, h4, h5, h6,
   color: $text-color;
 }
 
+// -- Publication cards ----------------------------------------------
+
+.feature__wrapper--pubs {
+  margin-top: 1.5rem;
+}
+
+.pub-card__title {
+  font-size: 1.02rem;
+  line-height: 1.35;
+  margin-bottom: 0.6rem;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $primary-color;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+  }
+}
+
+.pub-card__pill {
+  border-left: 3px solid $primary-color;
+  background: rgba($info-color, 0.08);
+  padding: 0.35rem 0.7rem;
+  font-style: italic;
+  font-size: 0.87rem;
+  line-height: 1.45;
+  border-radius: 0 6px 6px 0;
+  margin-bottom: 0.7rem;
+}
+
+.pub-card__authors {
+  font-size: 0.8rem;
+  color: $muted-text-color;
+  margin-bottom: 0.5rem;
+
+  strong {
+    color: $text-color;
+    font-weight: 600;
+  }
+}
+
+.pub-card__ref {
+  font-size: 0.8rem;
+  color: #7c8896;
+  margin-top: auto;
+  margin-bottom: 0;
+
+  a {
+    word-break: break-all;
+  }
+}
+
+.pub-card__fallback .pub-card__glyph {
+  font-family: $header-font-family;
+  font-weight: 700;
+  font-size: 2.6rem;
+  color: rgba($primary-color, 0.55);
+}
+
+
 // -- People page photos (scoped: only on the people layout) --------
 
 .layout--people .feature__wrapper .archive__item-teaser {

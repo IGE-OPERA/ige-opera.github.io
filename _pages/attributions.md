@@ -48,3 +48,10 @@ Cambridge University Press).
 The legoESM logo on the software page was obtained from the
 [legoESM repository](https://github.com/climate-federation/legoESM)
 (`docs/assets/legoESM.png`), white margins trimmed, centred on a white plate.
+
+### ODINN.jl sticker
+
+The ODINN.jl sticker on the software page is from the
+[ODINN.jl repository](https://github.com/ODINN-SciML/ODINN.jl)
+(`plots/ODINN_sticker_original.png`), white margins trimmed, centred on a
+white plate.

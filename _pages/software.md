@@ -29,9 +29,32 @@ community_models:
     excerpt: "OPERA contributes to legoESM, a fully differentiable Earth System Model in JAX — atmosphere, ocean, land, sea ice and lakes, coupled through one interface, with end-to-end gradients."
     url: "https://github.com/climate-federation/legoESM"
     btn_label: "Learn more"
-  - title: "ODINN.jl"
+  - image_path: "/assets/images/software/odinn.jpg"
+    title: "ODINN.jl"
     excerpt: "OPERA contributes to ODINN.jl, open-source glacier evolution modelling with neural differential equations — physics-informed machine learning in Julia."
     url: "https://github.com/ODINN-SciML/ODINN.jl"
+    btn_label: "Learn more"
+
+opera_software:
+  - title: "JaxParrow"
+    excerpt: "Cyclogeostrophic surface currents computed with a minimisation-based approach, in JAX."
+    url: "https://github.com/IGE-OPERA/jaxparrow"
+    btn_label: "Learn more"
+  - title: "eophis"
+    excerpt: "Couple Python scripts and tools into Fortran Earth system models through the OASIS3-MCT coupler."
+    url: "https://github.com/IGE-OPERA/eophis"
+    btn_label: "Learn more"
+  - title: "widetrax"
+    excerpt: "Cloud-ready toolbox for manipulating wide-swath altimetry ocean data."
+    url: "https://github.com/IGE-OPERA/widetrax"
+    btn_label: "Learn more"
+  - title: "tunax"
+    excerpt: "Automatic calibration of vertical ocean physics, in JAX."
+    url: "https://github.com/IGE-OPERA/tunax"
+    btn_label: "Learn more"
+  - title: "Aronnax"
+    excerpt: "Python wrapper for the ocean general circulation model NEMO v5.0.1 — drive the Fortran time loop and exchange model variables from Python."
+    url: "https://github.com/IGE-OPERA/Aronnax"
     btn_label: "Learn more"
 ---
 
@@ -44,17 +67,14 @@ environmental science:
 
 {% include cards_grid.html items=page.community_models rows=true %}
 
+## OPERA software
+
+Our own open-source tools, developed in the open in the
+[IGE-OPERA GitHub organisation](https://github.com/IGE-OPERA?view_as=public):
+
+{% include cards_grid.html items=page.opera_software rows=true %}
+
 ## More on our GitHub
 
-All our in-house development happens in the open on the
-[IGE-OPERA GitHub organisation](https://github.com/IGE-OPERA?view_as=public). A few
-repositories you may find useful:
-
-- **[tunax](https://github.com/IGE-OPERA/tunax)** — automatic calibration of vertical ocean physics in JAX
-- **[jaxparrow](https://github.com/IGE-OPERA/jaxparrow)** — cyclogeostrophic currents computed with a minimisation-based approach, in JAX
-- **[eophis](https://github.com/IGE-OPERA/eophis)** — call Python scripts from Fortran ESMs through the OASIS3-MCT coupler
-- **[widetrax](https://github.com/IGE-OPERA/widetrax)** — cloud-ready toolbox for wide-swath altimetry ocean data
 - **[swot-omip](https://github.com/IGE-OPERA/swot-omip)** — leveraging SWOT ocean data to assess ocean circulation models
 - **[ocean-sea-ice-emulators-living-review](https://github.com/IGE-OPERA/ocean-sea-ice-emulators-living-review)** — a living review of deep emulators for ocean and sea-ice modelling and forecasting
-- **[gyres-experiment-template](https://github.com/IGE-OPERA/gyres-experiment-template)** — template for reproducible personal ocean-experiment ledgers
-- **[code-reprohack](https://github.com/IGE-OPERA/code-reprohack)** — reviewing scientific software repositories, with a focus on reproducibility

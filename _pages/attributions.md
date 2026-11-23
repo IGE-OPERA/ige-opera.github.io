@@ -34,3 +34,11 @@ surface temperature anomalies (public domain data).
 ### Facundo Sapienza profile picture
 
 Used with kind permission; source: [facusapienza.org](https://facusapienza.org).
+
+### Journal logos
+
+Journal and preprint-server logos on the publications page
+(`assets/images/journals/`) are the property of their respective owners and are
+used nominatively, to identify the venue of each publication. They were
+obtained from the publishers' public websites (Copernicus/EGU, Frontiers,
+Cambridge University Press).

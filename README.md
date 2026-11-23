@@ -31,9 +31,12 @@ one-time setup.
 
 Publications are fully automated: the daily `zotero-sync` workflow regenerates
 `_data/publications.bib` and `_data/publications.json` from the group's Zotero
-library (id `6427155`), downloads banner artwork for new papers (best effort,
-via `scripts/fetch_publication_artwork.py`) and opens a "papers needing pills"
-issue. The one-line pills live in `_data/pills.yml`.
+library (id `6427155`), and opens a "papers needing pills" issue. Each
+publication card carries the venue's thumbnail — the journal logo when one is
+mapped in `_data/journals.yml` (logos live in `assets/images/journals/`), or a
+typographic badge otherwise (including unmapped journals and preprints).
+The earlier `scripts/fetch_publication_artwork.py` (paper-figure banners) is
+kept dormant in the repo but no longer used by the page.
 
 ## Repository layout
 

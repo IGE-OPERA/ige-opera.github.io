@@ -486,11 +486,30 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
-.pub-card__fallback .pub-card__glyph {
+// Publication venue teaser (journal logo or typographic badge)
+
+.pub-card .card__teaser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba($info-color, 0.10), rgba($primary-color, 0.06));
+  padding: 1rem;
+}
+
+.pub-card__logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.pub-card__badge {
   font-family: $header-font-family;
   font-weight: 700;
-  font-size: 2.6rem;
-  color: rgba($primary-color, 0.55);
+  font-size: 1.5rem;
+  line-height: 1.15;
+  color: rgba($primary-color, 0.7);
+  text-align: center;
+  overflow-wrap: anywhere;
 }
 
 // -- Horizontal row cards (projects / software / publications / outreach) ----

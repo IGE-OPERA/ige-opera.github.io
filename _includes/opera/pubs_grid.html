@@ -17,21 +17,37 @@
 
   {% for p in pubs %}
 
-    {% assign art = site.data.artwork[p.key] %}
+    {% comment %} venue identity: journal logo or typographic badge.
+      NB: in Liquid an empty string is truthy, so test for it explicitly. {% endcomment %}
+    {% if p.journal and p.journal != empty %}
+      {% assign j = site.data.journals[p.journal] %}
+    {% else %}
+      {% if p.doi contains 'egusphere' %}
+        {% assign j = site.data.journals.EGUsphere %}
+      {% elsif p.doi contains '10.31223' %}
+        {% assign j = site.data.journals.EarthArXiv %}
+      {% else %}
+        {% assign j = site.data.journals.preprint %}
+      {% endif %}
+    {% endif %}
+
     {% assign pill = site.data.pills[p.key] %}
 
     <div class="feature__item">
       <div class="archive__item card pub-card">
 
-        {% if art %}
-          <div class="archive__item-teaser card__teaser">
-            <img src="{{ art | relative_url }}" alt="Figure from the paper {{ p.title | truncate: 80 }}" loading="lazy">
-          </div>
-        {% else %}
-          <div class="archive__item-teaser card__teaser card__teaser--fallback pub-card__fallback">
-            <span class="pub-card__glyph">{{ p.journal | truncate: 1, "" }}{% if p.journal == "" %}{{ p.type | truncate: 1, "" }}{% endif %}</span>
-          </div>
-        {% endif %}
+        <div class="archive__item-teaser card__teaser pub-card__teaser">
+          {% if j.logo %}
+            <img class="pub-card__logo" src="{{ j.logo | relative_url }}"
+                 alt="{{ j.abbr | default: p.journal }} logo" loading="lazy">
+          {% elsif j.abbr %}
+            <span class="pub-card__badge">{{ j.abbr }}</span>
+          {% elsif p.journal and p.journal != empty %}
+            <span class="pub-card__badge">{{ p.journal }}</span>
+          {% else %}
+            <span class="pub-card__badge">preprint</span>
+          {% endif %}
+        </div>
 
         <div class="archive__item-body card__body pub-card__body">
 

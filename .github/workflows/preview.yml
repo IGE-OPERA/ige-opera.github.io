@@ -1,0 +1,37 @@
+name: Preview (redesign branch)
+on:
+  push:
+    branches: [redesign]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: preview
+  cancel-in-progress: true
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.SYNC_TOKEN }}
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+      - name: Build with /preview baseurl
+        run: bundle exec jekyll build --baseurl /preview
+      - name: Publish to ige-opera/preview (GitHub Pages)
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          cd _site
+          git init -q
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -q -b gh-pages
+          git add -A
+          git commit -qm "Preview of ${GITHUB_SHA}"
+          git push -qf "https://x-access-token:${GH_TOKEN}@github.com/IGE-OPERA/preview.git" gh-pages
+      - name: Preview URL
+        run: echo "Published preview to https://ige-opera.github.io/preview/"
